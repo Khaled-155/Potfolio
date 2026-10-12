@@ -1,0 +1,250 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+header{
+    background-color: #FFF8F3;
+    background: url(../images/developer.png),url(../images/header_bg.png),#FFF8F3;
+    background-repeat: no-repeat;
+    background-position: 23px 38px , bottom right;
+    padding-top: 50px;
+}
+nav{
+    width: 84%;
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+.color-orange{
+    color: #FD6E0A;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+    align-items: center;
+}
+.menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+.btn{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FD6E0A;
+    color: #FFF8F3;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#banner {
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color:#474747;
+    margin-bottom: 5px;
+}
+.banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+.banner-content p{
+    line-height: 30px;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.banner-content .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+}
+#about,#resume{
+    padding: 130px 230px 130px 230px;
+}
+.about-heading {
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.about-container{
+    padding: 131px 157px 131px 157px;
+    background-color: #FFF8F3;
+    width: 81%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-heading h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #181818;
+}
+.about-heading p{
+    font-size:18px ;
+    line-height: 30px;
+    color: #757575;
+    /* max-width: 827px; */
+    margin-bottom: 30px;
+}
+.about-info {
+    display: flex;
+    justify-content: space-between;
+}
+.about-info .about-card p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.about-info .about-card h4{
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+    font-weight: bold;
+}
+#skill .skill-container{
+    width: 81%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#skill .skill-container .skill-box{
+    display: flex;
+    gap:24px ;
+}
+.skill-box .skill-cards{
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 #00000011;
+}
+.skill-cards img {
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skill-cards h3 {
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill-cards p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+
+}
+
+#resume .resume-container{
+    width: 81%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.resume-container hr {
+    margin: 30px 0
+}
+
+.resume-container .section-title {
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-card {
+    max-width: 511px;
+    margin-right: 47px;
+}
+.resume-card .card-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747
+}
+
+.resume-card .card-info {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+.resume-card .card-text {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+.text-center {
+    text-align: center;
+}
+footer {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer .footer-container {
+    display: flex;
+    gap: 116px;
+    width: 81%;
+    max-width: 1140px;
+    margin: 0 auto ;
+}
+
+.footer-container h2 {
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-container .social {
+    max-width: 562px;
+}
+
+.footer-container .social p {
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer-container .icons a {
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"],
+.footer-container form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+
+    color: #757575
+}
